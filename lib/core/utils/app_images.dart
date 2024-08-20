@@ -5,6 +5,10 @@ class Assets {
   /// assets/images/apple.svg
   static const String imagesApple = "assets/images/apple.svg";
 
+  /// Assets for imagesArrow
+  /// assets/images/arrow.svg
+  static const String imagesArrow = "assets/images/arrow.svg";
+
   /// Assets for imagesCheckout
   /// assets/images/checkout.svg
   static const String imagesCheckout = "assets/images/checkout.svg";
@@ -32,5 +36,9 @@ class Assets {
   /// Assets for imagesShoppingCart
   /// assets/images/shopping_cart.svg
   static const String imagesShoppingCart = "assets/images/shopping_cart.svg";
+
+  /// Assets for imagesShoppingCartPng
+  /// assets/images/shopping_cart_png.png
+  static const String imagesShoppingCartPng = "assets/images/shopping_cart_png.png";
 }
 
