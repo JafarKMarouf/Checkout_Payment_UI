@@ -2,7 +2,6 @@ import 'package:checkout_payment/core/widgets/custome_button.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/custome_credit_card.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/thank_you_view.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'payment_method_list_view.dart';
 
@@ -22,10 +21,11 @@ class _PaymentDetailsViewBodyState extends State<PaymentDetailsViewBody> {
       slivers: [
         const SliverToBoxAdapter(child: PaymentMethodsListView()),
         SliverToBoxAdapter(
-            child: CustomeCreditCard(
-          formKey: formKey,
-          autovalidateMode: autovalidateMode,
-        )),
+          child: CustomeCreditCard(
+            formKey: formKey,
+            autovalidateMode: autovalidateMode,
+          ),
+        ),
         SliverFillRemaining(
           hasScrollBody: false,
           child: Align(
@@ -45,6 +45,7 @@ class _PaymentDetailsViewBodyState extends State<PaymentDetailsViewBody> {
                     );
                   } else {
                     autovalidateMode = AutovalidateMode.always;
+                    setState(() {});
                   }
                 },
               ),
