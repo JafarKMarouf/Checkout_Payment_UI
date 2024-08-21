@@ -19,7 +19,7 @@ class CustomeButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(15),
           ),
         ),
-        onPressed: () {},
+        onPressed: onPressed,
         child: Text(
           title,
           style: AppStyles.styleMedium22,
