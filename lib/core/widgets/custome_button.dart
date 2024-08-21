@@ -22,7 +22,7 @@ class CustomeButton extends StatelessWidget {
         onPressed: onPressed,
         child: Text(
           title,
-          style: AppStyles.styleMedium22,
+          style: AppStyles.styleMedium25,
         ),
       ),
     );

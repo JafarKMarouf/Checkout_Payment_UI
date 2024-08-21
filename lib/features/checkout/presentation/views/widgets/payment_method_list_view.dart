@@ -23,26 +23,29 @@ class _PaymentMethodsListViewState extends State<PaymentMethodsListView> {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      scrollDirection: Axis.horizontal,
-      itemCount: paymetMethodsList.length,
-      itemBuilder: (context, index) {
-        return Padding(
-          padding: EdgeInsets.symmetric(horizontal: index == 1 ? 20 : 0),
-          child: GestureDetector(
-            onTap: () {
-              if (currentIndex != index) {
-                currentIndex = index;
-                setState(() {});
-              }
-            },
-            child: PaymentMethodItem(
-              image: paymetMethodsList[index],
-              isActive: currentIndex == index,
+    return SizedBox(
+      height: 62,
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: paymetMethodsList.length,
+        itemBuilder: (context, index) {
+          return Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: GestureDetector(
+              onTap: () {
+                if (currentIndex != index) {
+                  currentIndex = index;
+                  setState(() {});
+                }
+              },
+              child: PaymentMethodItem(
+                image: paymetMethodsList[index],
+                isActive: currentIndex == index,
+              ),
             ),
-          ),
-        );
-      },
+          );
+        },
+      ),
     );
   }
 }
