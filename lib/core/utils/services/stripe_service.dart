@@ -8,7 +8,7 @@ class StripeService {
   final ApiService apiService = ApiService();
 
   Future<PaymentIntentModel> createPaymentIntent({
-    required PayementIntentInputModel paymentIntentInput,
+    required PaymentIntentInputModel paymentIntentInput,
   }) async {
     var response = await apiService.post(
       url: 'https://api.stripe.com/v1/payment_intents',
@@ -34,7 +34,7 @@ class StripeService {
     await Stripe.instance.presentPaymentSheet();
   }
 
-  Future makePayment({required PayementIntentInputModel paymentInput}) async {
+  Future makePayment({required PaymentIntentInputModel paymentInput}) async {
     PaymentIntentModel paymentIntentModel =
         await createPaymentIntent(paymentIntentInput: paymentInput);
     await initPaymentSheet(
