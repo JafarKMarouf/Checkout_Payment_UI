@@ -1,7 +1,7 @@
-import 'package:checkout_payment/core/utils/app_colors.dart';
-import 'package:checkout_payment/core/utils/app_images.dart';
+import 'package:checkout_payment/core/utils/constant/app_colors.dart';
+import 'package:checkout_payment/core/utils/constant/app_images.dart';
 import 'package:checkout_payment/core/widgets/custome_button.dart';
-import 'package:checkout_payment/features/checkout/models/order_info_model.dart';
+import 'package:checkout_payment/features/checkout/data/models/order_info_model.dart';
 import 'package:flutter/material.dart';
 
 import 'order_info_item.dart';

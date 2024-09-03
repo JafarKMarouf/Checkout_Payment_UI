@@ -1,4 +1,4 @@
-import 'package:checkout_payment/core/utils/app_images.dart';
+import 'package:checkout_payment/core/utils/constant/app_images.dart';
 import 'package:flutter/material.dart';
 
 import 'payment_method_item.dart';

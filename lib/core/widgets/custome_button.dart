@@ -1,5 +1,5 @@
-import 'package:checkout_payment/core/utils/app_colors.dart';
-import 'package:checkout_payment/core/utils/app_styles.dart';
+import 'package:checkout_payment/core/utils/constant/app_colors.dart';
+import 'package:checkout_payment/core/utils/constant/app_styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomeButton extends StatelessWidget {

@@ -1,5 +1,5 @@
-import 'package:checkout_payment/core/utils/app_colors.dart';
-import 'package:checkout_payment/core/utils/app_images.dart';
+import 'package:checkout_payment/core/utils/constant/app_colors.dart';
+import 'package:checkout_payment/core/utils/constant/app_images.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/widgets/thank_you_cart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

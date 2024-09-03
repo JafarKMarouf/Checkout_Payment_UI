@@ -1,8 +1,8 @@
-import 'package:checkout_payment/core/utils/app_images.dart';
+import 'package:checkout_payment/core/utils/constant/app_images.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../utils/app_styles.dart';
+import '../utils/constant/app_styles.dart';
 
 AppBar customeAppBar({final String? title}) {
   return AppBar(

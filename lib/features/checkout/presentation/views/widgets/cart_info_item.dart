@@ -1,7 +1,7 @@
-import 'package:checkout_payment/core/utils/app_styles.dart';
+import 'package:checkout_payment/core/utils/constant/app_styles.dart';
 import 'package:flutter/material.dart';
 
-import '../../../models/cart_info_model.dart';
+import '../../../data/models/cart_info_model.dart';
 
 class CartInfoItem extends StatelessWidget {
   const CartInfoItem({super.key, required this.cartInfoModel});

@@ -1,11 +1,11 @@
-import 'package:checkout_payment/core/utils/app_colors.dart';
-import 'package:checkout_payment/core/utils/app_styles.dart';
+import 'package:checkout_payment/core/utils/constant/app_colors.dart';
+import 'package:checkout_payment/core/utils/constant/app_styles.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/widgets/card_info.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/widgets/cart_info_item.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/widgets/total_price_widget.dart';
 import 'package:flutter/material.dart';
 
-import '../../../models/cart_info_model.dart';
+import '../../../data/models/cart_info_model.dart';
 import 'barcode_widget.dart';
 
 class ThankYouCart extends StatelessWidget {

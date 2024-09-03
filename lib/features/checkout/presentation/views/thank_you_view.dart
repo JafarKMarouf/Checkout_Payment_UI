@@ -1,4 +1,4 @@
-import 'package:checkout_payment/core/utils/app_colors.dart';
+import 'package:checkout_payment/core/utils/constant/app_colors.dart';
 import 'package:checkout_payment/core/widgets/custome_app_bar.dart';
 import 'package:checkout_payment/features/checkout/presentation/views/widgets/thank_you_view_body.dart';
 import 'package:flutter/material.dart';

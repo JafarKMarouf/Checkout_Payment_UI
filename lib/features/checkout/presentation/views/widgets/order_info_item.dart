@@ -1,5 +1,5 @@
-import 'package:checkout_payment/core/utils/app_styles.dart';
-import 'package:checkout_payment/features/checkout/models/order_info_model.dart';
+import 'package:checkout_payment/core/utils/constant/app_styles.dart';
+import 'package:checkout_payment/features/checkout/data/models/order_info_model.dart';
 import 'package:flutter/material.dart';
 
 class OrderInfoItem extends StatelessWidget {
