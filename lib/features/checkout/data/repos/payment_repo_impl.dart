@@ -15,9 +15,7 @@ class PaymentRepoImpl extends PaymentRepo {
       await stripeService.makePayment(paymentInput: paymentInput);
       return right(null);
     } catch (e) {
-      return left(
-        FailureServer(errMsg: e.toString()),
-      );
+      return left(FailureServer(errMsg: e.toString()));
     }
   }
 }
